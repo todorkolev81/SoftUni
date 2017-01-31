@@ -4,14 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _0Misc
+namespace Metod
 {
-    class Program
+    class method
     {
         static void Main(string[] args)
         {
-            var a = 0.0;
-            Console.WriteLine(a.GetType());
+            printHeader();
+        }
+        static void printHeader()
+        {
+            Console.WriteLine("-------------");
         }
     }
 }

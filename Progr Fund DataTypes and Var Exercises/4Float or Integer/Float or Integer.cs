@@ -4,14 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _0Misc
+namespace _4Float_or_Integer
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var a = 0.0;
-            Console.WriteLine(a.GetType());
-        }
+            int number = int.Parse(Console.ReadLine());
+
+            if (Math.Round(number))
+            {
+
+            }
+
+            Console.WriteLine();
+                }
     }
 }
