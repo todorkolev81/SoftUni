@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _5Integer_to_Base
 {
-    class Program
+    class Integer_to_Base
     {
         static void Main(string[] args)
         {
