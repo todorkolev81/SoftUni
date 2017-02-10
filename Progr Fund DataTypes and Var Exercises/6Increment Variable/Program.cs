@@ -15,18 +15,19 @@ namespace _6Increment_Variable
 
             if (n <= 256)
             {
-                Console.WriteLine(n-256);
+                Console.WriteLine(n - 256);
                 Console.WriteLine("Overflowed {0} times", overflow);
             }
             else
             {
-               overflow = n / 256;
-                Console.WriteLine(n-(overflow*256));
+                overflow = n / 256;
+                Console.WriteLine(n - (overflow * 256));
                 Console.WriteLine("Overflowed {0} times", overflow);
             }
 
-            
-           
+            //Console.WriteLine(n % 256);
+            //Console.WriteLine("Overflowed {0} times", n / 256);
+
         }
 
     }

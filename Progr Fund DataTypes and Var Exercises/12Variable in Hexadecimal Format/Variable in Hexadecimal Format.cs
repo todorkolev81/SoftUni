@@ -4,14 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _10Data_Overflow
+namespace _12Variable_in_Hexadecimal_Format
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var a = int.Parse(Console.ReadLine());
-            var b = int.Parse(Console.ReadLine());
+            string hex = Console.ReadLine();
+            int number = Convert.ToInt32(hex, 16);
+            Console.WriteLine(number);
         }
     }
 }
