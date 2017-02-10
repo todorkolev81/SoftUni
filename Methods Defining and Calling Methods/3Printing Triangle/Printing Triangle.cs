@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace _3Printing_Triangle
 {
-    class Program
+    class Printing_Triangle
     {
         static void Main(string[] args)
         {
             var n = int.Parse(Console.ReadLine());
-            Console.WriteLine();
+            PrintTriangle(n);
         }
         static void PrintLine(int start, int end)
         {
@@ -23,7 +23,14 @@ namespace _3Printing_Triangle
         }
         static void PrintTriangle(int n)
         {
-            for (int i = 1; i <= n; i++)
+            for (int i = 0; i < n; i++)
+            {
+                PrintLine(1, i);
+            }
+
+            PrintLine(1, n);
+
+            for (int i = n - 1; i >= 0; i--)
             {
                 PrintLine(1, i);
             }
