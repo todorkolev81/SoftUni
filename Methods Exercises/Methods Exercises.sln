@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4Nth Digit", "4Nth Digit\4N
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5Integer to Base", "5Integer to Base\5Integer to Base.csproj", "{BB0D46E2-A41B-48A8-932C-4C61ED7FEB7D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6Notifications", "6Notifications\6Notifications.csproj", "{F73DEF1B-887A-4E2A-91BB-45481D312131}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7Numbers to Words", "7Numbers to Words\7Numbers to Words.csproj", "{91B186C1-61D2-4C76-AF20-CD6E89AF1B84}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{BB0D46E2-A41B-48A8-932C-4C61ED7FEB7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB0D46E2-A41B-48A8-932C-4C61ED7FEB7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB0D46E2-A41B-48A8-932C-4C61ED7FEB7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F73DEF1B-887A-4E2A-91BB-45481D312131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F73DEF1B-887A-4E2A-91BB-45481D312131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F73DEF1B-887A-4E2A-91BB-45481D312131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F73DEF1B-887A-4E2A-91BB-45481D312131}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91B186C1-61D2-4C76-AF20-CD6E89AF1B84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91B186C1-61D2-4C76-AF20-CD6E89AF1B84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91B186C1-61D2-4C76-AF20-CD6E89AF1B84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91B186C1-61D2-4C76-AF20-CD6E89AF1B84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
