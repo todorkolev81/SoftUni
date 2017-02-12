@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _2Multiply_an_Array_of_Doubles
 {
-    class Program
+    class MultiplyAnArrayOfDoubles
     {
         static void Main(string[] args)
         {

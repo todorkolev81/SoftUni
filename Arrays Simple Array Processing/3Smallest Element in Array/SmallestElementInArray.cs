@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _3Smallest_Element_in_Array
 {
-    class Program
+    class SmallestElementInArray
     {
         static void Main(string[] args)
         {

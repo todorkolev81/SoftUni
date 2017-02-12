@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _1Sum_Array_Elements
 {
-    class Program
+    class SumArrayElements
     {
         static void Main(string[] args)
         {

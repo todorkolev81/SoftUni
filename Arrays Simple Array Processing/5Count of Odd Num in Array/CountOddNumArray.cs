@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _5Count_of_Odd_Num_in_Array
 {
-    class Program
+    class CountOddNumArray
     {
         static void Main(string[] args)
         {

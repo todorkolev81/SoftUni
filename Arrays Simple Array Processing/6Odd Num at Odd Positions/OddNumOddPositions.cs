@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _6Odd_Num_at_Odd_Positions
 {
-    class Program
+    class OddNumOddPositions
     {
         static void Main(string[] args)
         {

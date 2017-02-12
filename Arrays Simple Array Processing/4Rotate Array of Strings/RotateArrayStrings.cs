@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _4Rotate_Array_of_Strings
 {
-    class Program
+    class RotateArrayStrings
     {
         static void Main(string[] args)
         {
