@@ -21,10 +21,10 @@ namespace _2ArrayElementsEqualTheirIndex
             {
                 if (numbers[i] == i)
                 {
-                    result = i + " ";
+                    result += numbers[i] + " ";
                 }
             }
-            Console.WriteLine(result+);
+            Console.WriteLine(result);
         }
     }
 }

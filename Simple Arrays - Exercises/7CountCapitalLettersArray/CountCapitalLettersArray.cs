@@ -22,9 +22,7 @@ namespace _7CountCapitalLettersArray
                     count++;
                 }
             }
-
             Console.WriteLine(count);
-
         }
     }
 }
