@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _4UnunionLists
 {
-    class Program
+    class UnunionLists
     {
         static void Main(string[] args)
         {

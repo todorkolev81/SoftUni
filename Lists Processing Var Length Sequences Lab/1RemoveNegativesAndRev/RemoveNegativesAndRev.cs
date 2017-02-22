@@ -15,6 +15,7 @@ namespace _1RemoveNegativesAndRev
                 .Select(int.Parse)
                 .ToList();
 
+            var count = 0;
             var newList = new List<int>();
             //numbers.Sort();
             numbers.Reverse();
@@ -24,11 +25,20 @@ namespace _1RemoveNegativesAndRev
                 {
                     newList.Add(number);
                 }
+                else
+                {
+                    count++;
+                }
             }
-            Console.WriteLine("empty");
-            Console.WriteLine(string.Join(" ", newList));
+            if (count == numbers.Count)
+            {
+                Console.WriteLine("empty");
+            }
+            else
+            {
+                Console.WriteLine(string.Join(" ", newList));
+            }
         }
 
     }
 }
-
