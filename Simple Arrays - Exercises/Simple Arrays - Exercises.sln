@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6EqualSequenceElementsArray
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7CountCapitalLettersArray", "7CountCapitalLettersArray\7CountCapitalLettersArray.csproj", "{AD2EEC2C-5225-4D57-849D-BDFF0902CE3E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8ArraySymmetry", "8ArraySymmetry\8ArraySymmetry.csproj", "{8CA31FDC-A931-4065-9185-D4DCE788D4FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{AD2EEC2C-5225-4D57-849D-BDFF0902CE3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD2EEC2C-5225-4D57-849D-BDFF0902CE3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD2EEC2C-5225-4D57-849D-BDFF0902CE3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CA31FDC-A931-4065-9185-D4DCE788D4FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CA31FDC-A931-4065-9185-D4DCE788D4FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CA31FDC-A931-4065-9185-D4DCE788D4FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CA31FDC-A931-4065-9185-D4DCE788D4FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

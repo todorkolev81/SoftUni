@@ -11,14 +11,20 @@ namespace _3SumAdjacentEqualNumbrs
         static void Main(string[] args)
         {
             var input = Console.ReadLine()
-                .Split('|')
+                .Split(' ')
                 .Select(int.Parse)
                 .ToList();
 
-            foreach (var item in input)
+            for (int i = 0; i < input.Count - 1; i++)
             {
-                
+                if (input[i] == input[i + 1])
+                {
+                    input[i] = input[i] + input[i + 1];
+                    input.Remove(input[i + 1]);
+                    i = -1;
+                }
             }
+            Console.WriteLine(string.Join(" ", input));
         }
     }
 }
