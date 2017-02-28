@@ -12,7 +12,7 @@ namespace _3SumAdjacentEqualNumbrs
         {
             var input = Console.ReadLine()
                 .Split(' ')
-                .Select(int.Parse)
+                .Select(double.Parse)
                 .ToList();
 
             for (int i = 0; i < input.Count - 1; i++)
