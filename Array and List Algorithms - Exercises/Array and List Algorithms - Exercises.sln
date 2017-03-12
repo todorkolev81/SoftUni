@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1ShootListElements", "1Shoo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2AverageCharacterDelim", "2AverageCharacterDelim\2AverageCharacterDelim.csproj", "{7830BC4C-D7B2-4CB9-A123-5CC7EFB0FBF6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3SortArrayStrings", "3SortArrayStrings\3SortArrayStrings.csproj", "{48772406-79B4-4BC3-915D-67EC64719238}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4ArrayHistogram", "4ArrayHistogram\4ArrayHistogram.csproj", "{E0B860B4-DDE8-41CC-A108-D5B004B7AD95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{7830BC4C-D7B2-4CB9-A123-5CC7EFB0FBF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7830BC4C-D7B2-4CB9-A123-5CC7EFB0FBF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7830BC4C-D7B2-4CB9-A123-5CC7EFB0FBF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48772406-79B4-4BC3-915D-67EC64719238}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48772406-79B4-4BC3-915D-67EC64719238}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48772406-79B4-4BC3-915D-67EC64719238}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48772406-79B4-4BC3-915D-67EC64719238}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0B860B4-DDE8-41CC-A108-D5B004B7AD95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0B860B4-DDE8-41CC-A108-D5B004B7AD95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0B860B4-DDE8-41CC-A108-D5B004B7AD95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0B860B4-DDE8-41CC-A108-D5B004B7AD95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
