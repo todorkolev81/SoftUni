@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1D39B594-AB51-476B-8C21-9BB95B8B74F6}</ProjectGuid>
+    <ProjectGuid>{07118528-1A6D-470E-87CF-44DEA53741DF}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_1FilterExtensions</RootNamespace>
-    <AssemblyName>1FilterExtensions</AssemblyName>
+    <RootNamespace>_2HTMLContents</RootNamespace>
+    <AssemblyName>2HTMLContents</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FilterExtensions.cs" />
+    <Compile Include="HTMLContents.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

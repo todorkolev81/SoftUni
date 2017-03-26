@@ -11,7 +11,7 @@ namespace _5FolderSize
     {
         static void Main(string[] args)
         {
-            var files = Directory.GetFiles("TEstFolder");
+            var files = Directory.GetFiles("TestFolder");
 
             double sum = 0;
             foreach (var file in files)

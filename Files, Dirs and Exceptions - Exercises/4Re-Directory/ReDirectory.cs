@@ -5,27 +5,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _1FilterExtensions
+namespace _4Re_Directory
 {
-    class FilterExtensions
+    class ReDirectory
     {
         static void Main(string[] args)
         {
-            var inputExtension = Console.ReadLine();
             var files = Directory.GetFiles("input");
-
-            var result = new List<string>();
+            var extensions = new Dictionary<string, string>();
 
             foreach (var file in files)
             {
                 var fileInfo = new FileInfo(file);
 
-                if (fileInfo.Extension == "." + inputExtension)
-                {
-                    result.Add(fileInfo.Name);
-                }
+                fileInfo.Name.Split('.');
+                var extension = fileInfo.Name.Split('.')[1];
+                
             }
-            File.WriteAllLines("output.txt", result);
+
         }
     }
 }
