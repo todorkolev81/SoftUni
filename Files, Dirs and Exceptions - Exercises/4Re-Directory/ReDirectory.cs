@@ -20,7 +20,7 @@ namespace _4Re_Directory
 
                 fileInfo.Name.Split('.');
                 var extension = fileInfo.Name.Split('.')[1];
-                
+                extensions.Add(fileInfo.Name, extension);
             }
 
         }
