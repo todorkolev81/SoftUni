@@ -37,27 +37,6 @@ namespace _2HTMLContents
                 //}
                 lines = Console.ReadLine();
             }
-            //foreach (var line in lines)
-            //{
-            //    if (line == "exit")
-            //    {
-            //        break;
-            //    }
-            //    var lineParts = line.Split(' ');
-
-            //    var tag = lineParts[0];
-            //    var tagContent = lineParts[1];
-
-            //    if (tag == "title")
-            //    {
-            //        title = tagContent;
-            //    }
-            //    else
-            //    {
-            //        bodyParts.Add($"\t<{tag}>{tagContent}</{tag}>");
-            //    }
-            //}
-
             var result = new StringBuilder();
             result.AppendLine("<!DOCTYPE html>");
             result.AppendLine("<html>");
