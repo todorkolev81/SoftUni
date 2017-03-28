@@ -10,9 +10,14 @@ namespace _1ReverseString
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("aasa");
-            Console.WriteLine("a");
+            var input = Console.ReadLine();
+            var sb = new StringBuilder();
 
+            for (int i = input.Length - 1; i >= 0; i--)
+            {
+                sb.Append(input[i]);
+            }
+            Console.WriteLine(sb.ToString());
         }
     }
 }
