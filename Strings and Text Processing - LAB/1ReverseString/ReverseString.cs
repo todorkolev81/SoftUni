@@ -10,7 +10,8 @@ namespace _1ReverseString
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(a);
+            Console.WriteLine("aasa");
+            Console.WriteLine("a");
 
         }
     }
