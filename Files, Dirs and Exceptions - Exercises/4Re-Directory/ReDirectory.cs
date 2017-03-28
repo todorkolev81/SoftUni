@@ -19,10 +19,26 @@ namespace _4Re_Directory
                 var fileInfo = new FileInfo(file);
 
                 fileInfo.Name.Split('.');
-                var extension = fileInfo.Name.Split('.')[1];
+                var extension = fileInfo.Extension.Trim('.');
                 extensions.Add(fileInfo.Name, extension);
             }
 
+            Directory.CreateDirectory("output");
+
+            foreach (var kvp in extensions)
+            {
+                if (Directory.Exists($"output\\{kvp.Value}"))
+                {
+                    File.Move($"input\\{kvp.Key}", $"output\\{kvp.Value}\\{kvp.Key}");
+                }
+                else
+                {
+                    Directory.CreateDirectory($"output\\{kvp.Value}");
+                    File.Move($"input\\{kvp.Key}", $"output\\{kvp.Value}\\{kvp.Key}");
+                }
+                
+            }
         }
+
     }
 }
