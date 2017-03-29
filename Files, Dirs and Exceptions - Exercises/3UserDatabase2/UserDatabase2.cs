@@ -1,12 +1,13 @@
 ﻿using System;
-using System.IO;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
-namespace _3UserDatabase
+namespace _3UserDatabase2
 {
-    class UserDatabase
+    class UserDatabase2
     {
         private static string dbPath = "users.txt";
         private static Dictionary<string, string> users = new Dictionary<string, string>();
@@ -41,14 +42,14 @@ namespace _3UserDatabase
             //        };
             //    });
 
-            //var commands = File.ReadAllLines("Input.txt");
-            var commands = Console.ReadLine();
+            var commands = File.ReadAllLines("Input.txt");
+            //var commands = Console.ReadLine();
 
-            while (commands != "exit")
+            //while (commands != "exit")
+            //{
+            foreach (var command in commands)
             {
-                //foreach (var command in commands)
-                //{
-                var commandParts = commands.Split(' ');
+                var commandParts = command.Split(' ');
 
                 switch (commandParts[0])
                 {
@@ -68,9 +69,9 @@ namespace _3UserDatabase
                         break;
 
                 }
-                //}
-                commands = Console.ReadLine();
             }
+            //commands = Console.ReadLine();
+            //}
         }
 
         private static void Logout()
