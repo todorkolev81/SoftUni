@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _1FilterExtensions
 {
@@ -25,7 +22,8 @@ namespace _1FilterExtensions
                     result.Add(fileInfo.Name);
                 }
             }
-            File.WriteAllLines("output.txt", result);
+            //File.WriteAllLines("output.txt", result);
+            Console.WriteLine(string.Join(" "+Environment.NewLine,result));
         }
     }
 }
