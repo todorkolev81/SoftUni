@@ -25,9 +25,9 @@ namespace _4Re_Directory
             {
                 if (!Directory.Exists($"output\\{kvp.Value}"))
                 {
-                    Directory.CreateDirectory($"output\\{kvp.Value}");
+                    Directory.CreateDirectory($"output\\{kvp.Value}s");
                 }
-                File.Move($"input\\{kvp.Key}", $"output\\{kvp.Value}\\{kvp.Key}");
+                File.Move($"input\\{kvp.Key}", $"output\\{kvp.Value}s\\{kvp.Key}");
             }
         }
     }
