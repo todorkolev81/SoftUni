@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _4DistanceBetweenPoints
+namespace _5ClosestTwoPoints
 {
     //class Point
     //{
-    //    public int X { get; set; }
-    //    public int Y { get; set; }
-
+    //        public int X { get; set; }
+    //        public int Y { get; set; }
     //}
 }

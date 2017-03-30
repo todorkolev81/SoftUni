@@ -29,12 +29,18 @@ namespace _4DistanceBetweenPoints
         static Point ReadPoint()
         {
             var pointInput = Console.ReadLine().Split().Select(int.Parse).ToArray();
-            Point point = new Point();
+            var point = new Point();
             point.X = pointInput[0];
             point.Y = pointInput[1];
             return point;
 
         }
+
+    }
+    class Point
+    {
+        public int X { get; set; }
+        public int Y { get; set; }
 
     }
 }
