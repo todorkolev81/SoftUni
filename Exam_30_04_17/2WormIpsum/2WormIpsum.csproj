@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0833DC34-A1E1-4E6C-BEAA-BF5B9013DAB2}</ProjectGuid>
+    <ProjectGuid>{41A9E84C-9A66-4612-AB44-7D74031B17B6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_2FishStatistics</RootNamespace>
-    <AssemblyName>2FishStatistics</AssemblyName>
+    <RootNamespace>_02WormIpsum</RootNamespace>
+    <AssemblyName>_02WormIpsum</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,8 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FishStatistics.cs" />
-    <Compile Include="naivan.cs" />
+    <Compile Include="WormIpsum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
